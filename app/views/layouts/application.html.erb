@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VueIt</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag *webpack_asset_paths('application', extension: 'css') %>
+
+    <style>
+      body, html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 15px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      ul, li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .button {
+        display: inline-block;
+          margin: 0;
+          padding: 13px 20px;
+          font-style: normal;
+          text-transform: uppercase;
+          font-size: 10px;
+          letter-spacing: 1px;
+          text-align: center;
+          background: #c6000e;
+          color: #ffffff;
+          border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <%= vueport yield %>
+    <%= javascript_include_tag *webpack_asset_paths("application") %>
+  </body>
+</html>
