@@ -18,10 +18,10 @@
   <div class="container">
     <home-header></home-header>
     <main role="main">
-      <careers></careers>
-      <recent-features></recent-features>
+      <careers />
+      <recent-features />
     </main>
-    <home-footer></home-footer>
+    <home-footer />
   </div>
 </template>
 

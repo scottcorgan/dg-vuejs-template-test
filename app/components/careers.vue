@@ -3,7 +3,7 @@
     <section class="hero">
       <header>
         <h2>Careers</h2>
-        <share></share>
+        <share />
       </header>
       <div class="hero-intro">
         <h3>
@@ -36,7 +36,7 @@
         <li>Hey</li>
       </ul>
     </section>
-    <opportunities></opportunities>
+    <opportunities />
   </div>
 </template>
 
