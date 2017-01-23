@@ -11,7 +11,6 @@ section {
   text-align: center;
 }
 
-
 img {
   width: 1149px;
 }

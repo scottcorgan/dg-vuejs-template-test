@@ -16,7 +16,7 @@
   </header>
 </template>
 
-<style scoped>
+<style lang="sass?outputStyle=expanded" scoped>
 .container {
   display: flex;
   height: 63px;
@@ -36,9 +36,10 @@
 .nav {
   flex: 1;
   text-align: center;
-}
-.nav ul li {
-  display: inline-block;
-  padding: 0 16px;
+
+  ul li {
+    display: inline-block;
+    padding: 0 16px;
+  }
 }
 </style>
